@@ -25,11 +25,17 @@
         </div>
 
     </div>
+
+    <div id="transaction_area">
+        <h1>Transaction Area</h1>
+    </div>
     <script>
         const loginBtn = document.getElementById("login");
         loginBtn.addEventListener("click", function () {
             const loginArea = document.getElementById("login_area");
             loginArea.style.display= "none";
+            const transactionArea = document.getElementById("transaction_area");
+            transactionArea.style.display="block";
         });
     </script>
 </body>
